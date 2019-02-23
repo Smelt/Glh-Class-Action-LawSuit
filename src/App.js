@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './styles/App.css';
+import AppRouter from './routers/AppRouter';
+import ReactDOM from 'react-dom';
 
+const jsx = (
+
+    <AppRouter />
+);
+
+ReactDOM.render(jsx, document.getElementById('app'));
+
+
+/*
 class App extends Component {
   render() {
     return (
@@ -26,3 +37,4 @@ class App extends Component {
 }
 
 export default App;
+*/
