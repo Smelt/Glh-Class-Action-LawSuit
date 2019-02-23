@@ -1,20 +1,20 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
-const Header = (props) => (
+
+const Card = (props) => (
     <nav className="navbar navbar-default myheader">
     <div className="inner-bound">
   <div className="container-fluid">
     <div className="navbar-header">
-    <Link to="/"><span className="navbar-brand" ><i className="fab fa-fort-awesome"></i> Classify</span></Link>
+    <Link to="/"><a class="navbar-brand" href=""><i class="fab fa-fort-awesome"></i> Classify</a></Link>
     </div>
     <ul className="nav navbar-nav navbar-right">
            
             <li>
-              <Link to="/distance"><i className="fas fa-info-circle"></i> About us</Link>
+              <Link to="/distance"><i class="fas fa-info-circle"></i> About us</Link>
             </li>
             <li>
-              <Link to="/signin"><i className="fas fa-user"></i>{props.name}</Link>
+              <Link to="/signin"><i class="fas fa-user"></i>{props.name}</Link>
             </li>
           </ul>
           </div>
@@ -22,4 +22,4 @@ const Header = (props) => (
 </nav>
   );
 
-export default Header;
+export default Card;

@@ -34,8 +34,110 @@
 
 .landing-container {
 
-  height: 1900px;
-  width: 100%;
   margin-top: -20px;
-  background-color: rgb(200,200, 220);
+
+  top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    text-align: center;
+    padding: 1rem;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("https://i.imgur.com/6MZdPjs.jpg");
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.signup-container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: rgba(240,240,240, .95);
+  width: 50vw;
+  height: 50vh;
+  padding: 30px;
+  border-radius: 3vw;
+  border: 4px solid rgb(40,40,60);
+  -webkit-box-shadow: 11px 9px 5px 0px rgba(189,189,189,.4);
+-moz-box-shadow: 11px 9px 5px 0px rgba(189,189,189,.4);
+box-shadow: 11px 9px 5px 0px rgba(189,189,189,.4);
+}
+
+.myheader {
+
+  color: rgb(20,20,40) !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgb(20,20,40);
+  
+}
+
+.input-group .form-control {
+  width: 20vw;
+  border-radius: 3px;
+  margin-right: 2vw;
+  margin-bottom: 2vh;
+  border-radius: 6px;
+  border: 1px solid rgba(20,20,30, .5);
+}
+
+.inner-bound{
+margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.api-container{
+  height: 120vh;
+  width: 100%;
+  background-color: rgb(245,245, 245);
+  margin-top: -25px;
+  padding: 3vw;
+  float: top;
+  display: flex;
+}
+
+.card-image {
+  width: 400px;
+  display: block;
+  height: 270px;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+  height: 280px;
+}
+
+.my-card {
+  display: inline-block;
+  width: 402px;
+  border: 1px solid gray;
+  background-color: rgb(230, 230, 230);
+  margin-right: 3vw;
+  height:  420px;
+}
+
+.payment-block {
+  padding: 20px;
+
+}
+
+.payment-block .header {
+  font-weight: 700;
+  margin-right: 2px;
+}
+
+#amazon-header {
+  height: 120px;
+  margin-left: 80px;
+}
+
+#amazon-sign-in {
+  background-color: #f0c14b;
+  border: 2px solid #846a29;
+  border: 1px solid #a88734;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
 }
