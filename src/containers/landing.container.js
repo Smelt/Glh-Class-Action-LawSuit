@@ -6,7 +6,7 @@ const Landing = () => (
     <Header name={" Login"}/>
     <div className="landing-container" >
       <div className="signup-container">
-        <h2><i class="fas fa-user-plus"></i> Sign up</h2>
+        <h1><i className="fab fa-fort-awesome"></i>  Classify</h1>
   <br/>
         <div class="input-group">
 
@@ -20,7 +20,7 @@ const Landing = () => (
     <input type="text" class="form-control" placeholder="ZipCode" aria-describedby="basic-addon1"/>
     <br/>
     <Link to="/Api">
-      <button type="button">Sign Up</button>
+      <button id="sign-up" type="button"><i class="fas fa-user-plus"></i> Sign Up</button>
     </Link>
 </div>
       </div>

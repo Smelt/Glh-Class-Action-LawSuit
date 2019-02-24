@@ -19,6 +19,10 @@
   color: white;
 }
 
+.navbar .navbar-default .myheader .navbar-brand{
+  color: black;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -169,4 +173,50 @@ margin-left: 4vw;
   margin-right: 1vw;
   margin-top: 4vh;
   float: left;
+}
+
+.modal-cont {
+  width: 500px;
+  height: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 24px;
+  color: rgb(40,40,40);
+  font-weight: 500;
+  line-height: 2.1;
+}
+
+
+
+.mod-amount {
+  font-weight: 700;
+  color: green;
+}
+
+#sign-up {
+  margin-left: 400px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  border: 1px solid rgb(40,40,70);
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(80,80,140);
+}
+
+#linkAccbtn {
+  position: relative;
+  top: 10px;
+  left: 222px;
+  background-color: white;
+  border: 1px solid rgb(44,44,66);
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+#amazon-sign-in {
+  width: 410px;
 }

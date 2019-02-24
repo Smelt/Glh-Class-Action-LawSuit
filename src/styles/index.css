@@ -25,17 +25,19 @@ i .fas {
 }
 
 .law-container {
-  padding: 25px;
-  display: flex;
+  padding: 35px;
+
 
 }
 
 .settlement {
   border: 1px solid gray;
-  height: 33vh;
-  width: 30vw;
-  margin-right: 2vw;
+  height: 30vh;
+  width: 31vw;
+  margin-right: 10px;
+  margin-bottom: 2vh;
   float: left;
+
 }
 
 .settlement-title {
@@ -91,4 +93,50 @@ i .fas {
   border-radius: 4px;
   margin-right: 5px;
   background-color: rgb(220, 184,184);
+}
+
+.total-bar {
+   width: 80vw;
+   margin-top: 3vh;
+   float: left;
+   margin-left: 6vw;
+   border-top: 2px solid gray;
+}
+
+.estimate-title {
+  font-weight: 800;
+  font-size: 40px;
+  margin-left: 5vw;
+  color: rgb(70,70,70);
+  padding: 15px;
+}
+
+.est-comp {
+
+  color: green;
+  font-size: 40px;
+  margin-left: 3vw;
+  font-weight: 800;
+}
+
+.t-cancel-btn {
+  padding: 8px;
+  padding-left: 19px;
+  padding-right: 19px;
+  border: 1px solid rgb(40,40,60);
+  border-radius: 4px;
+  background-color: rgb(220,221,221);
+  margin-left: 10vw;
+  margin-right: 1vw;
+}
+
+.t-submit-btn {
+  padding: 8px;
+  padding-left: 19px;
+  padding-right: 19px;
+  border: 1px solid rgb(40,40,60);
+  border-radius: 4px;
+  background-color: rgb(190,190,220);
+  margin-right: 1vw;
+
 }
