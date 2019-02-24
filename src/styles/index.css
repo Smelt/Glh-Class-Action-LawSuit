@@ -23,3 +23,72 @@ i .fas {
   margin-left: 5px;
   margin-right: 5px;
 }
+
+.law-container {
+  padding: 25px;
+  display: flex;
+
+}
+
+.settlement {
+  border: 1px solid gray;
+  height: 33vh;
+  width: 30vw;
+  margin-right: 2vw;
+  float: left;
+}
+
+.settlement-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(40,40,70);
+  padding: 15px;
+  text-align: center;
+}
+.settlement-content {
+  padding: 20px;
+  font-weight: 500;
+  color: rgb(40,40,40);
+
+}
+
+.settlement .amount {
+  color: green;
+  font-weight: 700;
+}
+
+.btn-row {
+  float: right;
+  margin-top: 20px;
+}
+
+.product {
+  color: darkgoldenrod;
+}
+
+.settlement .date {
+  color: rgb(100,100, 100);
+  font-weight: 700;
+}
+
+.case-num {
+  color: black;
+  font-weight: 700;
+}
+
+.aprv-btn {
+  padding: 5px;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-color: rgb(180,221,181);
+}
+
+.rej-btn {
+  padding: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 4px;
+  margin-right: 5px;
+  background-color: rgb(220, 184,184);
+}

@@ -10,7 +10,7 @@ import {amazonData} from '../static/amazon.data';
 
 export class Data extends React.Component {
 
-    constructor(props) {
+constructor(props) {
         super(props);
    
 
@@ -57,7 +57,7 @@ export class Data extends React.Component {
                     </div>
                     <div className="btn-data-con">
                         <button className="btn cancel-btn">Cancel</button>
-                            <button className="btn data-btn">Process History</button>
+                            <Link to="/Law/Amazon"><button className="btn data-btn">Process History</button></Link>
                         </div>
                 </div>
             </div>
