@@ -76,20 +76,22 @@ constructor(props) {
           contentLabel="Example Modal"
         >
  
-          <img id="amazon-header" src="https://i.imgur.com/3D7UGsA.png"/>
+          <img className="fade-in-1" id="amazon-header" src="https://i.imgur.com/3D7UGsA.png"/>
          
-          <div class="modal-cont">
+          <div class="modal-cont fade-in-b">
             <span>An amazon gift card with the amount </span>
             <span className="mod-amount">${this.state.amount}.00</span>
             <span> is being generated. Please check your email: 
-                <a>shivam.satyarthi@gmail.com</a>.</span>
+                <a> shivam.satyarthi@gmail.com</a>.</span>
             <span> If you have problems please contact our help line at (212)555-1234 or</span>
             <span> our email <a>customer-support@amazon.com</a></span>
-            
+            <br/>
+            <hr/>
+            <a href="/submit-a-claim-SmartDocument.pdf">Download Legal Form</a>
           </div>
         </Modal>
                 <div className="law-container">
-                    <div className="settlement">
+                    <div className="settlement fade-in-a">
                         <div className="settlement-title">
                             Product: Gingerale
                         </div>
@@ -114,7 +116,7 @@ constructor(props) {
                     </div>
 
 
-                    <div className="settlement">
+                    <div className="settlement fade-in-b">
                         <div className="settlement-title">
                             Product: Charmin Fresh...
                         </div>
@@ -137,7 +139,7 @@ constructor(props) {
                         </div>    
                     </div>
 
-                    <div className="settlement">
+                    <div className="settlement fade-in-c">
                         <div className="settlement-title">
                             Product: Poz-Lok Fire...
                         </div>
@@ -162,7 +164,7 @@ constructor(props) {
                     </div>
 
 
-                         <div className="settlement">
+                         <div className="settlement fade-in-d">
                         <div className="settlement-title">
                             Product: Lenovo Laptop
                         </div>
@@ -187,7 +189,7 @@ constructor(props) {
 
               
                     </div>
-                    <div className="total-bar">
+                    <div className="total-bar fade-in-a">
                             <span className="estimate-title">Estimated Compensation</span>
                             <span className="est-comp">$<span>{this.state.amount}.00</span></span>
 

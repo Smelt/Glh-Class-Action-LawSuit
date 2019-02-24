@@ -39,7 +39,7 @@ constructor(props) {
         return (
             <div>
                 <Header name={"Shivam"} />
-                <div className="data-container">
+                <div className="data-container fade-in-3">
                     <div
                         className="ag-theme-balham"
                         style={{
@@ -55,7 +55,7 @@ constructor(props) {
                         
                         
                     </div>
-                    <div className="btn-data-con">
+                    <div className="btn-data-con fade-in-1">
                         <button className="btn cancel-btn">Cancel</button>
                             <Link to="/Law/Amazon"><button className="btn data-btn">Process History</button></Link>
                         </div>

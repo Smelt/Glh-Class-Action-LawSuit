@@ -220,3 +220,85 @@ margin-left: 4vw;
 #amazon-sign-in {
   width: 410px;
 }
+
+.fade-in-1 {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+
+.fade-in-2 {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2.3s;
+}
+
+.fade-in-3 {
+	opacity: 1;
+	animation-name: fadeInOpacityM;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3.5s;
+}
+
+.fade-in-a {
+	opacity: 1;
+	animation-name: fadeInOpacityM;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.5s;
+}
+
+.fade-in-b {
+	opacity: 1;
+	animation-name: fadeInOpacityM;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	animation-duration: 2.5s;
+}
+
+.fade-in-c {
+	opacity: 1;
+	animation-name: fadeInOpacityM;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	animation-duration: 3.1s;
+}
+
+
+.fade-in-d {
+	opacity: 1;
+	animation-name: fadeInOpacityM;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	animation-duration: 3.3s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+  }
+  40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInOpacityM {
+	0% {
+		opacity: 0;
+  }
+  70% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

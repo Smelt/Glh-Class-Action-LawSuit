@@ -45,11 +45,12 @@ export class Api extends React.Component {
           onRequestClose={this.closeModal}
           style={customStyles}
           contentLabel="Example Modal"
+          className=""
         >
  
-          <img id="amazon-header" src="https://i.imgur.com/3D7UGsA.png"/>
+          <img id="amazon-header"  className="fade-in-1" src="https://i.imgur.com/3D7UGsA.png"/>
          
-          <div class="modal-contenit">
+          <div class="modal-contenit fade-in-1">
           <label>Email</label>
           <input type="text" class="form-control" placeholder="" value="shivamsatyarthi@gmail.com" aria-describedby="basic-addon1"/>
           <br/>
@@ -58,7 +59,7 @@ export class Api extends React.Component {
             <br/>
             
           </div>
-            <div className="btn-row">
+            <div className="btn-row fade-in-1">
             <Link to="/Data"> <button id="amazon-sign-in">Sign In</button></Link>
             </div>
         </Modal>
@@ -66,7 +67,7 @@ export class Api extends React.Component {
                 <div className="api-container">
 
 
-                    <div className="my-card" >
+                    <div className="my-card fade-in-1" >
                         <img className="card-image" src="https://i.imgur.com/OuWbRu5.jpg" />
                         <div className="payment-block">
                             <div><span className="header" >Service: </span><span>Chase Financial View</span></div>
@@ -75,7 +76,7 @@ export class Api extends React.Component {
                             <div><span className="header">Claimed Rewards: </span><span>  $88.99</span></div>
                         </div>
                     </div>
-                    <div className="my-card" >
+                    <div className="my-card fade-in-2" >
                         <img className="card-image" src="https://i.imgur.com/4nLaFRL.jpg" />
                         <div className="payment-block">
                             <div><span className="header" >Service: </span><span>Bank of America</span></div>
@@ -87,7 +88,7 @@ export class Api extends React.Component {
 
 
 
-                    <div className="my-card" >
+                    <div className="my-card fade-in-3" >
                         <img className="card-image" src="https://i.imgur.com/SlcPD3z.jpg" />
                         <div className="payment-block">
                             <div><span className="header" >Service: </span><span>Amazon</span></div>
