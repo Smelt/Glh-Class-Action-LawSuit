@@ -140,4 +140,33 @@ margin-left: 4vw;
   padding: 5px;
   border-radius: 5px;
   width: 100%;
+  color: black !important;
+}
+
+.data-container{
+
+  padding-top: 2vh;
+  padding-left: 4vw;
+}
+
+.data-btn {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 4vh;
+  background-color: rgb(180,191,211);
+}
+
+.cancel-btn {
+
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 54vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(222,222,222);
+  margin-right: 1vw;
+  margin-top: 4vh;
+  float: left;
 }

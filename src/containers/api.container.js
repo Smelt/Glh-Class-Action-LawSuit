@@ -59,7 +59,7 @@ export class Api extends React.Component {
             
           </div>
             <div className="btn-row">
-            <Link to="/"> <button id="amazon-sign-in">Sign In</button></Link>
+            <Link to="/Data"> <button id="amazon-sign-in">Sign In</button></Link>
             </div>
         </Modal>
                 <Header name={" Shivam"} />
