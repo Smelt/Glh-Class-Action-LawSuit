@@ -43,7 +43,7 @@ constructor(props) {
                     <div
                         className="ag-theme-balham"
                         style={{
-                            height: '350px',
+                            height: '950px',
                             width: '1020px'
                         }} 
                     >
@@ -55,7 +55,7 @@ constructor(props) {
                         
                         
                     </div>
-                    <div className="btn-data-con fade-in-1">
+                    <div className="btn-data-con">
                         <button className="btn cancel-btn">Cancel</button>
                             <Link to="/Law/Amazon"><button className="btn data-btn">Process History</button></Link>
                         </div>

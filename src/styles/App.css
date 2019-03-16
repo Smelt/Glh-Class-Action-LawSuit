@@ -1,45 +1,18 @@
-.App {
-  text-align: center;
+.navbar-default .navbar-brand {
+  color: rgb(20,20,40);
+  font-weight: 500;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.navbar-default .navbar-nav >li > a{
+  color: rgb(20,20,40);
+}
+.navbar .navbar-default .myheader {
+  background-color: rgb(210,210,210, .8);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.navbar .navbar-default .myheader .navbar-brand{
-  color: black;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .landing-container {
-
   margin-top: -20px;
-
   top: 0;
     left: 0;
     display: flex;
@@ -51,15 +24,16 @@
     padding: 1rem;
     background-position: center center;
     background-size: cover;
-    background-image: url("https://i.imgur.com/6MZdPjs.jpg");
+    background-image: url("https://i.imgur.com/1J8DSP0.jpg");
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     box-sizing: border-box;
 }
 
 .signup-container {
   box-sizing: border-box;
   margin: 0 auto;
+  margin-bottom: 15vh;
   background-color: rgba(240,240,240, .95);
   width: 50vw;
   height: 50vh;
@@ -109,14 +83,14 @@ margin-left: 4vw;
   display: block;
   height: 270px;
   margin: 0 auto;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(20,20,40);
   height: 280px;
 }
 
 .my-card {
   display: inline-block;
   width: 402px;
-  border: 1px solid gray;
+  border: 1px solid rgb(20,20,40);
   background-color: rgb(230, 230, 230);
   margin-right: 3vw;
   height:  420px;
@@ -134,7 +108,7 @@ margin-left: 4vw;
 
 #amazon-header {
   height: 120px;
-  margin-left: 80px;
+  margin-left: 42px;
 }
 
 #amazon-sign-in {
@@ -210,7 +184,7 @@ margin-left: 4vw;
   top: 10px;
   left: 222px;
   background-color: white;
-  border: 1px solid rgb(44,44,66);
+  border: 1px solid rgb(20,20,40);
   padding: 5px;
   padding-left: 15px;
   padding-right: 15px;

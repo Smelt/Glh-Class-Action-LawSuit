@@ -73,7 +73,7 @@ export class Api extends React.Component {
                             <div><span className="header" >Service: </span><span>Chase Financial View</span></div>
                             <div><span className="header">Last Reviewed:</span><span> Jan 1st 2019</span></div>
                             <div><span className="header">Transaction History: </span><span>  March 2016 - Feb 2019</span></div>
-                            <div><span className="header">Claimed Rewards: </span><span>  $88.99</span></div>
+                            <div><span className="header">Claimed: </span><span>  $88.99</span></div>
                         </div>
                     </div>
                     <div className="my-card fade-in-2" >
@@ -82,7 +82,7 @@ export class Api extends React.Component {
                             <div><span className="header" >Service: </span><span>Bank of America</span></div>
                             <div><span className="header">Last Reviewed:</span><span> Jan 1st 2019</span></div>
                             <div><span className="header">Transaction History: </span><span>  July 2018 - Feb 2019</span></div>
-                            <div><span className="header">Claimed Rewards: </span><span>  $542.31</span></div>
+                            <div><span className="header">Claimed: </span><span className="">  $542.31</span></div>
                         </div>
                     </div>
 
@@ -93,7 +93,7 @@ export class Api extends React.Component {
                         <div className="payment-block">
                             <div><span className="header" >Service: </span><span>Amazon</span></div>
                             <div><span className="header" >Status </span><span>Not Connected: </span></div>
-                            <div><span className="header">Claimed Rewards: </span><span>  $0.00</span></div>
+                            <div><span className="header">Claimed: </span><span>  $0.00</span></div>
                             <button id="linkAccbtn" onClick={this.openModal}><i class="fas fa-link"></i> Link Account</button>
                         </div>
                     </div>
