@@ -13,6 +13,14 @@ code {
     monospace;
 }
 
+.order-title-container {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: rgb(40, 40, 40);
+
+}
 
 i .fab {
   margin-left: 5px;
@@ -38,6 +46,12 @@ i .fas {
   margin-bottom: 2vh;
   float: left;
 
+}
+
+.warning-container {
+  color: rgb(100,100,100);
+  font-size: 12px;
+  margin-top: 10px;
 }
 
 .settlement-title {

@@ -16,9 +16,9 @@ constructor(props) {
 
         this.state = {
             columnDefs: [{
-                headerName: "Item", field: "item_name"
+                headerName: "Item", field: "item_name", width: 340
             }, {
-                headerName: "Order_Id", field: "order_id"
+                headerName: "Order_Id", field: "order_id", width: 250
             }, {
                 headerName: "Price", field: "price"
             },
@@ -31,29 +31,55 @@ constructor(props) {
         
         
         ],
-            rowData: amazonData
+            rowData: []
         }
+    }
+
+    componentDidMount = async() => {
+        
+        let x = 100;
+
+        amazonData.forEach(row => {
+            
+            x += Math.floor(Math.random() * 100) + 70;
+            console.log(row);
+            setTimeout(() => {
+                this.setState({
+                    rowData: [...this.state.rowData, row]
+                });
+            }, x);
+            
+        });
+    
     }
 
     render() {
         return (
             <div>
                 <Header name={"Shivam"} />
-                <div className="data-container fade-in-3">
+                <div className="data-container ">
+                <div className="order-title-container">
+                    Amazon Order History
+                </div>
                     <div
                         className="ag-theme-balham"
                         style={{
-                            height: '950px',
-                            width: '1020px'
+                            height: '1500px',
+                            width: '1140px'
                         }} 
                     >
                         <AgGridReact
                             columnDefs={this.state.columnDefs}
-                            rowData={amazonData}>
+                            rowData={this.state.rowData}>
                         </AgGridReact>
 
                         
                         
+                    </div>
+                    <div className="warning-container">
+                      
+                        <span> * Reminder Classify only has orders for those that were completed with a valid card, orders posted after March 15th will not</span>
+                        <span>be reflected in order history</span>
                     </div>
                     <div className="btn-data-con">
                         <button className="btn cancel-btn">Cancel</button>

@@ -125,6 +125,7 @@ margin-left: 4vw;
 
   padding-top: 2vh;
   padding-left: 4vw;
+  height: 220vh;
 }
 
 .data-btn {
@@ -133,6 +134,7 @@ margin-left: 4vw;
   border-radius: 5px;
   margin-top: 4vh;
   background-color: rgb(180,191,211);
+  color: rgb(40,40,40);
 }
 
 .cancel-btn {
@@ -140,9 +142,9 @@ margin-left: 4vw;
   border: 1px solid gray;
   padding: 10px;
   border-radius: 5px;
-  margin-left: 54vw;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-left: 62vw;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: rgb(222,222,222);
   margin-right: 1vw;
   margin-top: 4vh;
